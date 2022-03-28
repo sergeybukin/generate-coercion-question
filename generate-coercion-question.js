@@ -5,7 +5,8 @@ export const createExp = () => {
     '{}', generateArr(generateNumber(5)),
     `new Date(${generateNumber(100000000)})`, null,
     generateStr(5), generateNumber(100),
-    generateBoolean(), `"${generateNumber(10)}"`
+    generateBoolean(), `"${generateNumber(10)}"`,
+    NaN, undefined
   ]
   const binaryOperators = ['+', '-', '/', '==', '>', '<']
   const unaryOperators = ['+', '!', '!!', '', '', '', '']
